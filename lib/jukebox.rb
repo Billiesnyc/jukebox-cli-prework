@@ -50,5 +50,9 @@ def run
     exit 
   else puts "Please enter a command:"
   end
-  if user_response 
+  if user_response == "list"
+    list
+    elsif user_response == "play"
+    play
+    
 end
