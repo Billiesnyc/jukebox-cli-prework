@@ -17,3 +17,10 @@ def help
 - play : lets you choose a song to play\n
 - exit : exits this program"
 end
+
+def list(song)
+  song.each_with_index do |song|
+    
+  end
+end
+
