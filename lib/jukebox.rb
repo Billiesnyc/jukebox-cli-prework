@@ -44,6 +44,7 @@ end
 
 def run(songs)
   help 
+  user_response = ""
   while user_response != "exit"
    puts "Please enter a command:"
    user_response = gets.chomp
