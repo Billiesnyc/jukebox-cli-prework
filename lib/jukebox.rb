@@ -49,7 +49,7 @@ def run(songs)
   while user_response != "exit"
    puts "Please enter a command:"
   end
-  if user_response == "list"
+    if user_response == "list"
     list
     elsif user_response == "play"
     play
@@ -57,5 +57,5 @@ def run(songs)
     help
     elsif user_response == "exit"
     exit_jukebox
-  end
+    end
 end
