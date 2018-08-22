@@ -19,7 +19,7 @@ def help
 end
 
 def list(song)
-  song.each_with_index do |song|
+  song.each_with_index do |song, index|
     
   end
 end
