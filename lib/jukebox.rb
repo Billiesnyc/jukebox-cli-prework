@@ -47,8 +47,7 @@ def run
   puts "Please enter a command:"
   user_response = gets.chomp
   while user_response != "exit"
-   
-  else puts "Please enter a command:"
+   puts "Please enter a command:"
   end
   if user_response == "list"
     list
