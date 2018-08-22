@@ -47,12 +47,13 @@ def run
   puts "Please enter a command:"
   user_response = gets.chomp
   if user_response == "exit"
-    exit 
+    exit_jukebox
   else puts "Please enter a command:"
   end
   if user_response == "list"
     list
     elsif user_response == "play"
     play
-    
+    elsif user_response == "help"
+    help
 end
